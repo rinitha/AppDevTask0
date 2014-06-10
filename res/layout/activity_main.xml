@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:layout_gravity="center"
+   android:orientation="vertical"
+   android:paddingTop="40dp"
+   android:background="@drawable/splash_background"
+   >
+    
+    <Button android:text="Click here to jumble the string"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:textSize="20sp"
+	    android:layout_gravity="center"
+	    android:id="@+id/bJumble"
+	    />
+    
+	<TextView android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:text="HELLO WORLD!"
+	    android:gravity="center"
+	    android:textSize="35sp"
+	    android:id="@+id/tvDisplay"
+	    />
+	
+	
+</LinearLayout>
+
